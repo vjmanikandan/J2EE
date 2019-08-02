@@ -1,0 +1,10 @@
+class Sample{
+public static void main(String args[]){
+int X=50,Y=25;
+if(X>Y)
+System.out.println("The no "+X+" is big");
+else
+System.out.println("The no "+Y+" is big");
+}
+}
+
