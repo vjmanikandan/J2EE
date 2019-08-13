@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String args[]){
+        System.out.println("Enter the Name,DOB,Dept,Clgname");
+        Scanner scan=new Scanner(System.in);
+        String Clgname,Dept,DOB,Name;
+        Clgname=scan.nextLine();
+        Dept=scan.nextLine();
+        DOB= scan.nextLine();
+        Name=scan.nextLine();
+        String RollNo=Clgname.substring(0,1)+Dept.substring(0,2)+DOB.substring(0,2)+Name.substring(0,4)+DOB.substring(3,5)+DOB.substring(8);
+     System.out.println(RollNo);
+    }
+}
